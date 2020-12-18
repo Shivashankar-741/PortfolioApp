@@ -131,8 +131,8 @@ a {
 	}
 	.section__one--name {
 		color: #333;
-		margin: 10px 0;
-		font-size: 50px;
+		margin: 45px 0 15px;
+		font-size: 45px;
 		font-weight: 700;
 	}
 	.section__one--quote {
@@ -193,8 +193,8 @@ a {
 	}
 	.section__two--details {
 		max-width: 800px;
-		padding: 30px;
-		text-align: start;
+		padding: 50px 30px;
+		text-align: center;
 	}
 
 	.section__two--header {
@@ -552,6 +552,14 @@ a {
 		object-fit: cover;
 	}
 }
+@media only screen and (min-width: 992px) {
+	.projects__img--in {
+		width: 350px;
+		height: 250px;
+		border-radius: 10px;
+		object-fit: cover;
+	}
+}
 
 /*  PROJECTS MEDIA QUERY MAX WIDTH 600PX*/
 
@@ -769,10 +777,10 @@ a {
 	color: #8c43ff;
 }
 
-.footer__link:hover {
+/* .footer__link:hover {
 	background-color: #8c43ff;
 	color: #fff;
 }
 .footer__link:hover > .twitter {
 	color: #fff;
-}
+} */
